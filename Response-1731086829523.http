@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Date: Fri, 08 Nov 2024 17:17:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730936457&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=tFuMrlUJvUzvJwhZQIgfN2vsQRY6GEoMhDmLTLS8W9I%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730936457&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=tFuMrlUJvUzvJwhZQIgfN2vsQRY6GEoMhDmLTLS8W9I%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1730936491
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 5810
+Server: cloudflare
+CF-RAY: 8df7381c9d5e40a0-SIN
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=77809&sent=3&recv=5&lost=0&retrans=0&sent_bytes=2811&recv_bytes=772&delivery_rate=53133&cwnd=251&unsent_bytes=0&cid=e283e6ab11676f69&ts=91&x=0"
+
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
